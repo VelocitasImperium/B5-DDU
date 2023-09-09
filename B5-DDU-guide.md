@@ -40,5 +40,31 @@ It's a good idea to order everything before starting so that you don't miss anyt
 
 We will now cover some specifics for ordering certain items, such as the **Graphics/Adhesives, CNC,** and the **PCB**.
 
+## 3.1 Plexiglass + UV print
+
+You can order a 2mm transparent Plexiglas plate, with our supplied UV print file, there is an extra PNG file included to show what should be transparent and where it should not be (BLUE = Transparent), both files should be sent to your preferred manufacturer.
+
 ## 4. Preparing 3D Printed parts
+
+The following settings are intended for use with a 0.4mm nozzle and wall line count (perimeters) of 4 (printing times with and ender 3)
+
+<table>
+  <tr>
+    <th>File Name</th>
+    <th>Layer Height</th>
+    <th>Infill</th>
+    <th>Supports</th>
+    <th>Est. print time</th>
+    <th>Extra notes</th>
+
+  </tr>
+  <tr>
+    <td>All parts</td>
+    <td>0,12</td>
+    <td>60%</td>
+    <td>No</td>
+    <td>3h</td>
+    <td> </td>
+  </tr>
+</table>
 
