@@ -12,10 +12,10 @@
 * 3 - [BOM and parts](#3-bom-and-parts)
 * 4 - [Preparing 3D Printed parts](#4-preparing-3d-printed-parts)
 * 5 - [PCB Assembly steps](#5-pcb-assembly-steps)
-* 6 - [Flashing and Programming the PCB](#7-flashing-and-programming-the-PCB)
-* 7 - [Assembly](#8-assembly)
-* 8 - [Troubleshooting](#9-troubleshooting)
-* 9 - [Extras](#10-extras)
+* 6 - [Flashing and Programming the PCB](#6-flashing-and-programming-the-PCB)
+* 7 - [Assembly](#7-assembly)
+* 8 - [Troubleshooting](#8-troubleshooting)
+* 9 - [Extras](#9-extras)
 
 
 
