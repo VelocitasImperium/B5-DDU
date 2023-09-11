@@ -1,6 +1,6 @@
 # **B5-DDU**
 
-<img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/TaurusGt3-GuideFront.png" width="600">
+<img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-mounting-8.png" width="600">
 
 **Copyright by VELOCITAS IMPERIUM - All rights reserved**
 
@@ -44,6 +44,9 @@ We will now cover some specifics for ordering certain items, such as the **Graph
 
 You can order a 2mm transparent Plexiglas plate, with our supplied UV print file, there is an extra PNG file included to show what should be transparent and where it should not be (BLUE = Transparent), both files should be sent to your preferred manufacturer.
 
+<img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-silk1.png" width="600">
+<img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-silk2.png" width="600">
+
 
 ## 4. Preparing 3D Printed parts
 
@@ -69,3 +72,48 @@ The following settings are intended for use with a 0.4mm nozzle and wall line co
   </tr>
 </table>
 
+## 4.1 Postprocessing
+
+For a better finish, sanding and painting are suggested, the necessary steps are as follows(for grips only sanding is suggested):
+
+1. Spray filler primer
+2. Dry sanding from 200 up to 600 grit
+3. Wet sanding from 800 to 1000 grit
+
+**NOTE**** :** Be careful with power tools on plastic, due to risk of melting.
+
+## 5. PCB Assembly steps
+In this part of the guide you will need this items:
+
+<table>
+  <tr>
+    <th>Items needed:</th>
+    <th>Quantity</th>
+  </tr>
+  <tr>
+    <td>PCB</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>USB Type B connector</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>SMD USB micro B connector(optional)</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>EG1218</td>
+    <td>1</td>
+  </tr>
+</table>
+
+## 5.1 PCB soldering
+
+If you bought the fully assembled PCB from JLCPCB, you only need to solder the vertical USB type B connector, the EG1218 on/off button on the back and the 6 pin header to flash the bootloader in the following steps.
+
+<img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-solderPCB-3.png" width="600">
+
+Otherwise, you'll have to solder the SMD USM Micro connector as well, or just 4 wires to the USB holes (highlighted in blue) for the Vocore.
+
+<img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-solderPCB-2.png" width="600">
