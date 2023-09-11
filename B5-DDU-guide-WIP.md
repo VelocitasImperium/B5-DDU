@@ -57,7 +57,7 @@ Upload the gerber file to their website leave everything default but the stackup
 
 Enable PCB assembly and leave the default options.
 If you want to use the microUSB connector on the PCB, you must enable the standard PCBA service or they will not be able to solder it.
-There is an extra USB port on the PCB that you can use for the Vocore screen to avoid the extra charge for standard PCBA assembly.
+There is an extra USB port on the PCB that you can use for the Vocore screen to avoid the extra charge for standard PCBA assembly or you can solder the micro USB by yourself.
 
 <img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-orderPCB-4.png" width="600">
 
