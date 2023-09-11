@@ -21,7 +21,7 @@
 
 ## 1. Introduction
 
-We hope you find the order and assembly process smooth, and a reminder that we are always available to help through the discord. Simply post your questions in the #diy-and-simgear channel and one of our staff (or helpful members) will try to assist. This guide covers all the necessary information to assemble your DDU, as well as links to the required shifters and clutches. Without further ado, let's begin.
+We hope you find the order and assembly process smooth, and a reminder that we are always available to help through the discord. Simply post your questions in the #diy-and-simgear channel and one of our staff (or helpful members) will try to assist. This guide covers all the necessary information to assemble your DDU. Without further ado, let's begin.
 
 ## 2. Safety notes
 
