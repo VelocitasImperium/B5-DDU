@@ -149,10 +149,10 @@ Otherwise, you'll have to solder the SMD USM Micro connector as well, or just 4 
 
 <img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-solderPCB-2.png" width="600">
 
-**NOTE: Flashing the bootloader on the B5 PCB is required, to do this you will need to solder the ISP header to the B5 PCB before proceeding to the next step, remember to remove the header when you have finished flashing the B5 PCB as it will interfere with the rear shell.
+**NOTE: Flashing the bootloader on the B5 PCB is required, to do this you will need to solder the ISP header to the B5 PCB before proceeding to the next step, remember to remove the header when you have finished flashing the B5 PCB as it will interfere with the rear shell.**
 
 
-## 7. Flashing and Programming the PCB
+## 6. Flashing and Programming the PCB
 
 You'll need another arduino for this process, atmega328p or 32u4 based boards are the same, you can follow the official guide on the arduino website or you can keep reading below, but this is just a summary of the arduino guide.
 
@@ -186,7 +186,7 @@ It will take about 2 minutes, you can see the RX TX LED flashing during this pro
 If it gives an error, check your connection and that the IDE configuration is correct.
 
 
-## 8. Assembly
+## 7. Assembly
 
 In this part we will need this parts:
 
@@ -230,3 +230,6 @@ Apply the double-sided tape where indicated and then place the Plexiglass in pos
 
 NOTE: If you need to disassemble the unit, simply unscrew the 4 rear M3x10 screws and insert a longer screw (e.g. a M3x20), just not all the way in, to prevent damaging the Plexiglass , then push on all sides until the whole assembly comes loose(You can also use the type-B connetor for pusing out the assembly).
 
+## 9. Troubleshooting
+
+## 10. Extras
