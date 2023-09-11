@@ -75,6 +75,7 @@ After you have confirmed the parts you will have to select the Product descripti
 <img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-orderPCB-5.png" width="600">
 
 and you're done, you can finish the order.
+
 **NOTE:It should cost around 110e without the microUSB connector, if you get a much lower price check you have done everything correctly.
 
 
