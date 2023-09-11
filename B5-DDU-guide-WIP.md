@@ -105,7 +105,7 @@ The following settings are intended for use with a 0.4mm nozzle and wall line co
 
 ## 4.1 Postprocessing
 
-For a better finish, sanding and painting are suggested, the necessary steps are as follows(for grips only sanding is suggested):
+For a better finish, sanding and painting are suggested, the necessary steps are as follows:
 
 1. Spray filler primer
 2. Dry sanding from 200 up to 600 grit
