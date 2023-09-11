@@ -117,3 +117,85 @@ If you bought the fully assembled PCB from JLCPCB, you only need to solder the v
 Otherwise, you'll have to solder the SMD USM Micro connector as well, or just 4 wires to the USB holes (highlighted in blue) for the Vocore.
 
 <img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-solderPCB-2.png" width="600">
+
+**NOTE: Flashing the bootloader on the B5 PCB is required, to do this you will need to solder the ISP header to the B5 PCB before proceeding to the next step, remember to remove the header when you have finished flashing the B5 PCB as it will interfere with the rear shell.
+
+
+## 7. Flashing and Programming the PCB
+
+You'll need another arduino for this process, atmega328p or 32u4 based boards are the same, you can follow the official guide on the arduino website or you can keep reading below, but this is just a summary of the arduino guide.
+
+You can start by uploading the ISP sketch to your Arduino board as shown in the picture:
+
+
+<img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-flashPCB-3.png" width="600">
+
+Then you need to connect your Arduino board to the B5 PCB, you need to connect the 5V, GND, MISO, MOSI, SCK, D10 pin to the corresponding pins on the B5 PCB, D10 goes to Reset.
+You can follow the B5 PCB silkscreen as it's self-explanatory.
+
+<img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-flashPCB-3.png" width="600">
+
+You can use this table to understand which pins are MISO, MOSI and SCK on your Arduino board:
+
+<img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-flashPCB-4.png" width="600">
+
+After you do the connection you can burn the bootloader:
+
+Select the Arduino Micro on the “Board:” section. 
+Now you have two options depending on your Arduino (Programmer Board)
+Select the Arduino as ISP(Atmega32u4) option on the “Programmer:” section if you have an arduino board based on that MCU (Such as the Micro/Pro Micro)
+Select the Arduino as ISP option on the “Programmer:” section for the other boards based on the Atmega328p(such as Arduino nano) 
+
+The image below shows an example of a configuration using an Arduino nano.
+
+<img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-flashPCB-1.png" width="600">
+
+It will take about 2 minutes, you can see the RX TX LED flashing during this process, don't disconnect until the Arduino IDE says it's done.
+
+If it gives an error, check your connection and that the IDE configuration is correct.
+
+
+## 8. Assembly
+
+In this part we will need this parts:
+
+<table>
+  <tr>
+    <th>Items needed:</th>
+    <th>Quantity</th>
+  </tr>
+  <tr>
+    <td>Screen holder</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>M3x4x4 Heat insert</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>Socket/Button M3x6</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Socket M3x10</td>
+    <td>4</td>
+  </tr>
+</table>
+
+Insert the hot inserts from the top, taking utmost care that they are flush with the surface. 
+
+<img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-mounting-3.png" width="600">
+
+
+Now you can place the Vocore in position and secure it in place with some electrical tape at the front and a little dab of hot glue / UHU Patafix at the back.
+Now it's time to fix the PCB in position, using 3 M3x6 socket head screws, don't over tighten them as it's not necessary.
+
+<img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-mounting-7.png" width="600">
+
+Apply the double-sided tape where indicated and then place the Plexiglass in position, taking care not to leave any hair/fingerprints on the screen or Plexiglass.
+
+<img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-mounting-5.png" width="600">
+<img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-mounting-4.png" width="600">
+
+NOTE: If you need to disassemble the unit, simply unscrew the 4 rear M3x10 screws and insert a longer screw (e.g. a M3x20), just not all the way in, to prevent damaging the Plexiglass , then push on all sides until the whole assembly comes loose(You can also use the type-B connetor for pusing out the assembly).
+
