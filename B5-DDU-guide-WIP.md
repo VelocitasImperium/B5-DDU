@@ -47,6 +47,36 @@ You can order a 2mm transparent Plexiglas plate, with our supplied UV print file
 <img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-silk1.png" width="600">
 <img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-silk2.png" width="600">
 
+## 3.2 PCB Order
+
+For the PCB I suggest you use JLCPCB and follow these instructions (if you don't understand a step you can ask for help in our Discord).
+
+Upload the gerber file to their website leave everything default but the stackup has to be the JLC7628 for the best result.(You can leave the default as it's the same stackup, but JLCPCB may change it in the future)
+
+<img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-orderPCB-1.png" width="600">
+
+Enable PCB assembly and leave the default options.
+If you want to use the microUSB connector on the PCB, you must enable the standard PCBA service or they will not be able to solder it.
+There is an extra USB port on the PCB that you can use for the Vocore screen to avoid the extra charge for standard PCBA assembly.
+
+<img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-orderPCB-4.png" width="600">
+
+Hit confirm, upload the BOM and CPL(POS) file like this
+
+<img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-orderPCB-3.png" width="600">
+
+After hitting process BOM & CPL you will get into the list of all the components needed for the build, it is all pre-configured by us, so you will need to hit NEXT, as they can't solder the Micro USB connector used for the vocore they will ask if you want to switch to their standard PCBA service (premium service) for a big markup so they will be able to solder that connector, you can decline and go with the extra port in the PCB or get the Micro USB port from lcsc and solder if afterwards.
+
+<img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-orderPCB-2.png" width="600">
+<img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-orderPCB-6.png" width="600">
+
+After you have confirmed the parts you will have to select the Product description:
+
+<img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-orderPCB-5.png" width="600">
+
+and you're done, you can finish the order.
+**NOTE:It should cost around 110e without the microUSB connector, if you get a much lower price check you have done everything correctly.
+
 
 ## 4. Preparing 3D Printed parts
 
