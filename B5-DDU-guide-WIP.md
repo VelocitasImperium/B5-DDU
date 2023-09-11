@@ -211,16 +211,23 @@ In this part we will need this parts:
     <td>Socket M3x10</td>
     <td>4</td>
   </tr>
+  <tr>
+    <td>12x5mm Magnets</td>
+    <td>4</td>
+  </tr>
 </table>
 
-First thing to do is to glue the magnets inside the shell and let them cure for a bit.
+The first step is to glue the magnets inside the shell and allow them to set.
 
 <img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-mounting-1.png" width="600">
 
-Do the same for the bracket you're gonna use 
+Do the same for the bracket you're going to use. 
 
 <img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-mounting-2.png" width="600">
 
+**NOTE**: Make sure the magnets are in the correct orientation as it will be impossible to remove them without damaging them once they have cured.
+
+Now go back to the screen holder:
 Insert the hot inserts from the top, taking utmost care that they are flush with the surface. 
 
 <img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-mounting-3.png" width="600">
