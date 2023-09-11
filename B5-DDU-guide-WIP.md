@@ -76,7 +76,7 @@ After you have confirmed the parts you will have to select the Product descripti
 
 and you're done, you can finish the order.
 
-**NOTE :It should cost around 110e without the microUSB connector, if you get a much lower price check you have done everything correctly.
+**NOTE** :It should cost around 110e without the microUSB connector, if you get a much lower price check you have done everything correctly.
 
 
 ## 4. Preparing 3D Printed parts
