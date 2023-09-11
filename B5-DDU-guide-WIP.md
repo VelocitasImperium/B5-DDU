@@ -242,7 +242,7 @@ Now it's time to fix the PCB in position, using 3 M3x6 socket head screws, don't
 
 Fix the backshell to the screen holder with 4 M3x10 socket head screws.
 
-<img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-mounting-8.png" width="600">
+<img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-mounting-6.png" width="600">
 
 Apply the double-sided tape where indicated and then place the Plexiglass in position, taking care not to leave any hair/fingerprints on the screen or Plexiglass.
 
