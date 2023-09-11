@@ -221,6 +221,9 @@ Insert the hot inserts from the top, taking utmost care that they are flush with
 Now you can place the Vocore in position and secure it in place with some electrical tape at the front and a little dab of hot glue / UHU Patafix at the back.
 Now it's time to fix the PCB in position, using 3 M3x6 socket head screws, don't over tighten them as it's not necessary.
 
+<img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-mounting-10.png" width="600">
+
+
 <img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-mounting-7.png" width="600">
 
 Fix the backshell to the screen holder with 4 M3x10 socket head screws.
