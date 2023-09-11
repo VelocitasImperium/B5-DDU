@@ -225,7 +225,6 @@ Insert the hot inserts from the top, taking utmost care that they are flush with
 
 <img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-mounting-3.png" width="600">
 
-
 Now you can place the Vocore in position and secure it in place with some electrical tape at the front and/or a little dab of hot glue / UHU Patafix at the back.
 
 <img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-mounting-10.png" width="600">
@@ -244,10 +243,6 @@ Apply the double-sided tape where indicated and then place the Plexiglass in pos
 <img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-mounting-4.png" width="600">
 
 **NOTE**: If you need to disassemble the unit, simply unscrew the 4 rear M3x10 screws and insert a longer screw (e.g. a M3x20), just not all the way in, to prevent damaging the Plexiglass , then push on all sides until the whole assembly comes loose(You can also use the type-B connetor for pusing out the assembly).
-
-## 7.1 Assembly bracket
-
-
 
 ## 9. Troubleshooting
 
