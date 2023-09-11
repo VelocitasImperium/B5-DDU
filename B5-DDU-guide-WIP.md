@@ -223,12 +223,16 @@ Now it's time to fix the PCB in position, using 3 M3x6 socket head screws, don't
 
 <img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-mounting-7.png" width="600">
 
+Fix the backshell to the screen holder with 4 M3x10 socket head screws.
+
+<img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-mounting-8.png" width="600">
+
 Apply the double-sided tape where indicated and then place the Plexiglass in position, taking care not to leave any hair/fingerprints on the screen or Plexiglass.
 
 <img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-mounting-5.png" width="600">
 <img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-mounting-4.png" width="600">
 
-NOTE: If you need to disassemble the unit, simply unscrew the 4 rear M3x10 screws and insert a longer screw (e.g. a M3x20), just not all the way in, to prevent damaging the Plexiglass , then push on all sides until the whole assembly comes loose(You can also use the type-B connetor for pusing out the assembly).
+**NOTE**: If you need to disassemble the unit, simply unscrew the 4 rear M3x10 screws and insert a longer screw (e.g. a M3x20), just not all the way in, to prevent damaging the Plexiglass , then push on all sides until the whole assembly comes loose(You can also use the type-B connetor for pusing out the assembly).
 
 ## 9. Troubleshooting
 
