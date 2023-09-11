@@ -164,7 +164,7 @@ You can start by uploading the ISP sketch to your Arduino board as shown in the 
 Then you need to connect your Arduino board to the B5 PCB, you need to connect the 5V, GND, MISO, MOSI, SCK, D10 pin to the corresponding pins on the B5 PCB, D10 goes to Reset.
 You can follow the B5 PCB silkscreen as it's self-explanatory.
 
-<img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-flashPCB-3.png" width="600">
+<img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-flashPCB-2.png" width="600">
 
 You can use this table to understand which pins are MISO, MOSI and SCK on your Arduino board:
 
