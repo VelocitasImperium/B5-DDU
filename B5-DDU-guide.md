@@ -111,7 +111,7 @@ For a better finish, sanding and painting are suggested, the necessary steps are
 2. Dry sanding from 200 up to 600 grit
 3. Wet sanding from 800 to 1000 grit
 
-**NOTE**** :** Be careful with power tools on plastic, due to risk of melting.
+**NOTE**: Be careful with power tools on plastic, due to risk of melting.
 
 ## 5. PCB Assembly steps
 In this part of the guide you will need this items:
@@ -154,7 +154,14 @@ Otherwise, you'll have to solder the SMD USM Micro connector as well, or just 4 
 
 ## 6. Flashing and Programming the PCB
 
-You'll need another arduino for this process, atmega328p or 32u4 based boards are the same, you can follow the official guide on the arduino website or you can keep reading below, but this is just a summary of the arduino guide.
+Before finalizing the assembly we want to make sure the buttons work, so we will start by explaining the process for flashing the bootloader. Unlike some other projects, the Arduino board we had you order in the BOM is simply there to flash the chip on the PCB itself and will be removed later. Before starting these steps it is recommended you remove any other arduino devices you may have plugged into your PC and close any programs that may be using/interfering such as SimHub.
+
+## 6.1 Flashing bootloader - Arduino IDE
+
+
+Flashing the bootloader is mandatory as they come without one, unlike the regular boards you can buy online.
+
+You will need another Arduino for this process (or you can use whatever tools you like, but they are not covered in this guide, I use another Arduino as it's pretty common to have a spare), atmega328p(nano) or 32u4(micro) based boards are the same, you can follow the official guide on the [**Arduino website**](https://docs.arduino.cc/built-in-examples/arduino-isp/ArduinoISP) or you can read on below, but this is just a summary of the Arduino guide.
 
 You can start by uploading the ISP sketch to your Arduino board as shown in the picture:
 
@@ -162,7 +169,11 @@ You can start by uploading the ISP sketch to your Arduino board as shown in the 
 <img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-flashPCB-3.png" width="600">
 
 Then you need to connect your Arduino board to the B5 PCB, you need to connect the 5V, GND, MISO, MOSI, SCK, D10 pin to the corresponding pins on the B5 PCB, D10 goes to Reset.
+
 You can follow the B5 PCB silkscreen as it's self-explanatory.
+
+**NOTE** : If you are having trouble flashing the bootloader, you may have accidentally connected the RESET pin of your Arduino board to the Taurus PCB, the RESET pin on the Arduino board is not needed in this procedure, you will need to use the D10 pin instead.
+
 
 <img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-flashPCB-2.png" width="600">
 
@@ -170,20 +181,35 @@ You can use this table to understand which pins are MISO, MOSI and SCK on your A
 
 <img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-flashPCB-4.png" width="600">
 
-After you do the connection you can burn the bootloader:
+Note:you can use this table with your Pro micro following the Leonardo pinout, or the UNO if you're using an arduino Nano
 
-Select the Arduino Micro on the “Board:” section. 
+Here is an example if you're using a Pro micro as programmer 
+
+<img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guideFlash4.png" width="600">
+
+Here is another example if you're using an Arduino nano as programmer
+
+<img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guideFlash7.png" width="600">
+
+Once you have completed the wiring you can plug the Arduino board into your PC, if you have done everything correctly you will notice that the PWR LED on the B5 PCB is ON, now you can burn the bootloader:
+
+Select the **Arduino Micro** on the "Board:" section.
+
 Now you have two options depending on your Arduino (Programmer Board)
-Select the Arduino as ISP(Atmega32u4) option on the “Programmer:” section if you have an arduino board based on that MCU (Such as the Micro/Pro Micro)
-Select the Arduino as ISP option on the “Programmer:” section for the other boards based on the Atmega328p(such as Arduino nano) 
+
+Select the **Arduino as ISP(Atmega32u4)** option on the "Programmer:" section if you have an arduino board based on that MCU (Such as the **Micro/Pro Micro**)
+
+Select the **Arduino as ISP** option on the "Programmer:" section for the other boards based on the Atmega328p(such as **Arduino nano** )
 
 The image below shows an example of a configuration using an Arduino nano.
 
-<img src="https://github.com/VelocitasImperium/B5-DDU/blob/main/images/Guide/B5-flashPCB-1.png" width="600">
+<img src="https://github.com/VelocitasImperium/Taurus-GT3/blob/main/images/Guide/TaurusGt3-guideFlash5.png" width="600">
 
-It will take about 2 minutes, you can see the RX TX LED flashing during this process, don't disconnect until the Arduino IDE says it's done.
+It will take about 2 minutes, you can see the RX TX LED(on the programmer) flashing during this process, don't disconnect until the Arduino IDE says it's done.
 
-If it gives an error, check your connection and that the IDE configuration is correct.
+Now you can proceed without the Arduino Board and plug your Taurus PCB directly to the USB.
+
+**NOTE** : If it gives an error, check your connection and that the IDE configuration is correct.
 
 
 ## 7. Assembly
